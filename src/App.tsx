@@ -60,7 +60,7 @@ function App() {
               <div className="text-center">
                 <MessageCircle className="w-12 h-12 mx-auto mb-4 text-gray-400" />
                 <p><strong>Begin een gesprek met je de minor coordinator</strong></p>
-                <p><em>Ik weet niet alles, dus wees niet teleurgesteld en je mag me altijd mailen: Gert van Hardeveld</em>em></p>
+                <p><em>Ik weet niet alles, dus wees niet teleurgesteld en je mag me altijd mailen: Gert van Hardeveld</em></p>
               </div>
             </div>
           )}
