@@ -101,6 +101,20 @@ function App() {
         {/* Input */}
         <ChatInput onSendMessage={sendMessage} isLoading={isLoading} />
       </div>
+
+      {/* Made in Bolt logo */}
+      <div className="max-w-4xl mx-auto w-full px-4 py-2">
+        <div className="flex justify-center">
+          <a 
+            href="https://bolt.new" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            Made in Bolt
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
