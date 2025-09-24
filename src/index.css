@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide Made in Bolt logo */
+[data-made-in-bolt],
+.made-in-bolt,
+div[style*="Made in Bolt"],
+div[style*="bolt.new"],
+iframe[src*="bolt"],
+div:has-text("Made in Bolt") {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Additional selectors to catch the logo */
+div[style*="position: fixed"][style*="bottom"][style*="right"] {
+  display: none !important;
+}
+
+/* Hide any element containing "Made in Bolt" text */
+*:contains("Made in Bolt") {
+  display: none !important;
+}
