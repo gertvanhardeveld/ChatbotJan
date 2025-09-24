@@ -91,6 +91,16 @@ function App() {
                   </div>
                   <span className="text-sm">Aan het typen...</span>
                 </div>
+              </div>
+            </div>
+          )}
+          
+          <div ref={messagesEndRef} />
+        </div>
+
+        {/* Chat Input */}
+        <ChatInput onSendMessage={sendMessage} isLoading={isLoading} />
+      </div>
     </div>
   );
 }
