@@ -26,8 +26,8 @@ function App() {
               <MessageCircle className="w-6 h-6 text-blue-600" />
             </div>
             <div>
-              <h1 className="text-xl font-semibold text-gray-900">AI Assistant Chat</h1>
-              <p className="text-sm text-gray-600">Chat met jouw OpenAI Assistant</p>
+              <h1 className="text-xl font-semibold text-gray-900">Minor chatbot</h1>
+              <p className="text-sm text-gray-600">Wat wil je me vragen</p>
             </div>
           </div>
         </div>
