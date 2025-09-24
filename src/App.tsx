@@ -59,7 +59,8 @@ function App() {
             <div className="flex items-center justify-center h-full text-gray-500">
               <div className="text-center">
                 <MessageCircle className="w-12 h-12 mx-auto mb-4 text-gray-400" />
-                <p>Begin een gesprek met je de minor coordinator (Ik weet niet alles, dus wees niet teleurgesteld en je mag me altijd mailen naat Gert van Hardeveld</p>
+                <p>Begin een gesprek met je de minor coordinator</p>
+                <p> (Ik weet niet alles, dus wees niet teleurgesteld en je mag me altijd mailen naat Gert van Hardeveld</p>
               </div>
             </div>
           )}
