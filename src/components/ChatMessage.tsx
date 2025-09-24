@@ -14,7 +14,7 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message, isAssistant, 
         isAssistant ? 'bg-blue-100' : 'bg-green-100'
       }`}>
         {isAssistant ? (
-          <Bot className="w-5 h-5 text-blue-600" />
+          <Bot className="w-5 h-5" style={{ color: '#00A1E1' }} />
         ) : (
           <User className="w-5 h-5 text-green-600" />
         )}

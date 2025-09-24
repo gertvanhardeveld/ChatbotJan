@@ -23,7 +23,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center gap-3">
             <div className="bg-blue-100 p-2 rounded-lg">
-              <MessageCircle className="w-6 h-6 text-blue-600" />
+              <MessageCircle className="w-6 h-6" style={{ color: '#00A1E1' }} />
             </div>
             <div>
               <h1 className="text-xl font-semibold text-gray-900">Minor chatbot</h1>
@@ -58,7 +58,7 @@ function App() {
           {messages.length === 0 && (
             <div className="flex items-center justify-center h-full text-gray-500">
               <div className="text-center">
-                <MessageCircle className="w-12 h-12 mx-auto mb-4 text-gray-400" />
+                <MessageCircle className="w-12 h-12 mx-auto mb-4" style={{ color: '#00A1E1' }} />
                 <p><strong>Begin een gesprek met je de minor coordinator</strong></p>
                 <p><em>Ik weet niet alles, dus wees niet teleurgesteld en je mag me altijd mailen (Gert van Hardeveld)</em></p>
               </div>
@@ -77,7 +77,7 @@ function App() {
           {isLoading && (
             <div className="flex gap-3 p-4 bg-gray-50">
               <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
-                <MessageCircle className="w-5 h-5 text-blue-600" />
+                <MessageCircle className="w-5 h-5" style={{ color: '#00A1E1' }} />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
