@@ -59,7 +59,7 @@ function App() {
             <div className="flex items-center justify-center h-full text-gray-500">
               <div className="text-center">
                 <MessageCircle className="w-12 h-12 mx-auto mb-4 text-gray-400" />
-                <p>Begin een gesprek met je AI Assistant</p>
+                <p>Begin een gesprek met je de minor coordinator</p>
               </div>
             </div>
           )}
